@@ -37,15 +37,11 @@ https://github.com/user-attachments/assets/43838340-7835-40b1-9db5-1b1b07ff6789
 
 ####
 
-<div style="display: flex; justify-content: space-around;">
-<img src="FILE/C1.png" width="40%" alt=""/>
-<img src="FILE/C0.png" width="40%" alt=""/>
-</div>
+<img src="FILE/C1.png" width="50%" alt=""/>
+<img src="FILE/C0.png" width="50%" alt=""/>
+<img src="FILE/H0.png" width="50%" alt=""/>
+<img src="FILE/H1.png" width="50%" alt=""/>
 
-<div style="display: flex; justify-content: space-around;">
-<img src="FILE/H0.png" width="40%" alt=""/>
-<img src="FILE/H1.png" width="40%" alt=""/>
-</div>
 ## 来自官网的性能对比图
 
 <img src="FILE/XN.png" width="50%" alt=""/>
@@ -55,20 +51,20 @@ https://github.com/user-attachments/assets/43838340-7835-40b1-9db5-1b1b07ff6789
 核心都是 WebAssembly ,区别就是 Kotlin/Wasm 比 Kotlin/Js 兼容性更差
 
 <div style="display: flex; justify-content: space-around;">
-<img src="FILE/W1.png" width="16%" alt=""/>
-<img src="FILE/W2.png" width="16%" alt=""/>
-<img src="FILE/W3.png" width="16%" alt=""/>
-<img src="FILE/W4.png" width="16%" alt=""/>
-<img src="FILE/W0.png" width="16%" alt=""/>
+  <img src="FILE/W1.png" width="16%" alt=""/>
+  <img src="FILE/W2.png" width="16%" alt=""/>
+  <img src="FILE/W3.png" width="16%" alt=""/>
+  <img src="FILE/W4.png" width="16%" alt=""/>
+  <img src="FILE/W0.png" width="16%" alt=""/>
 </div>
 
 ## 移动端（Android）
 
 <div style="display: flex; justify-content: space-around;">
-<img src="FILE/S1.png" width="20%" alt=""/>
-<img src="FILE/S2.png" width="20%" alt=""/>
-<img src="FILE/S3.png" width="20%" alt=""/>
-<img src="FILE/S0.png" width="20%" alt=""/>
+  <img src="FILE/S1.png" width="20%" alt=""/>
+  <img src="FILE/S2.png" width="20%" alt=""/>
+  <img src="FILE/S3.png" width="20%" alt=""/>
+  <img src="FILE/S0.png" width="20%" alt=""/>
 </div>
 
 ## <span style="color: red;">已知问题</span>
