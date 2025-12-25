@@ -6,6 +6,10 @@
 
 #### [网络请求：Ktor](https://ktor.io/)
 
+## 本项目采用了 MVVM 模式进行设计
+<img src="FILE/JG.png" width="50%" alt=""/>
+<img src="FILE/LC.png" width="50%" alt=""/>
+
 ## [访问 Kotlin / Js 版本](https://tojs.nmstarry.qzz.io/)
 
 ## [访问 Kotlin / Wasm 版本](https://qytq.nmstarry.qzz.io/)
@@ -20,7 +24,7 @@ https://github.com/user-attachments/assets/43838340-7835-40b1-9db5-1b1b07ff6789
 
 ## <span style="color: red;"> 如果浏览器不支持 WASM 则会出现以下情况： </span>
 
-1.无法显示任何内容，网页名称和图标正常加载，控制台显示有关于 WASM 的异常
+1.无法显示任何内容，网页名称和图标正常加载，控制台显示有关于 WASM 的异常，也可能不显示任何错误
 
 ####
 
@@ -52,8 +56,6 @@ https://github.com/user-attachments/assets/43838340-7835-40b1-9db5-1b1b07ff6789
   <img src="FILE/S0.png" width="20%" alt=""/>
 </div>
 
-## 核心架构
-<img src="FILE/JG.png" width="50%" alt=""/>
-<img src="FILE/LC.png" width="50%" alt=""/>
+
 
 ## <span style="color: blue;"> 项目源码将在 2026 年 4 月 1 日之前上传 </span>
