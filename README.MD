@@ -38,13 +38,13 @@ https://github.com/user-attachments/assets/43838340-7835-40b1-9db5-1b1b07ff6789
 ####
 
 <div style="display: flex; justify-content: space-around;">
-<img src="FILE/C1.png" width="50%" alt=""/>
-<img src="FILE/C0.png" width="50%" alt=""/>
+<img src="FILE/C1.png" width="40%" alt=""/>
+<img src="FILE/C0.png" width="40%" alt=""/>
 </div>
 
 <div style="display: flex; justify-content: space-around;">
-<img src="FILE/H0.png" width="50%" alt=""/>
-<img src="FILE/H1.png" width="50%" alt=""/>
+<img src="FILE/H0.png" width="40%" alt=""/>
+<img src="FILE/H1.png" width="40%" alt=""/>
 </div>
 ## 来自官网的性能对比图
 
