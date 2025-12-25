@@ -42,7 +42,7 @@ https://github.com/user-attachments/assets/43838340-7835-40b1-9db5-1b1b07ff6789
 <img src="FILE/H0.png" width="50%" alt=""/>
 <img src="FILE/H1.png" width="50%" alt=""/>
 
-## 来自官网的性能对比图
+## 来自 Kotlin 官网的性能对比图
 
 <img src="FILE/XN.png" width="50%" alt=""/>
 
