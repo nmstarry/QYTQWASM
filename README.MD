@@ -7,6 +7,7 @@
 #### [网络请求：Ktor](https://ktor.io/)
 
 ## 本项目采用了 MVVM 模式进行设计
+
 <img src="FILE/JG.png" width="50%" alt=""/>
 <img src="FILE/LC.png" width="50%" alt=""/>
 
@@ -24,21 +25,28 @@ https://github.com/user-attachments/assets/43838340-7835-40b1-9db5-1b1b07ff6789
 
 ## <span style="color: red;"> 如果浏览器不支持 WASM 则会出现以下情况： </span>
 
-1.无法显示任何内容，网页名称和图标正常加载，控制台显示有关于 WASM 的异常，也可能不显示任何错误
-
-####
-
-<img src="FILE/WASM.png" width="50%" alt=""/>
-
-2.显示以下图片内容，例如一加手机和魅族手机系统浏览器
+1.显示以下图片内容，例如一加手机和魅族手机系统浏览器
 
 ####
 
 <img src="FILE/BC.png" width="50%" alt=""/>
 
+2.无法显示任何内容，网页名称和图标正常加载，控制台显示有关于 WASM 的异常，也可能不显示任何错误
+
+####
+
+<img src="FILE/C0.png" width="50%" alt=""/>
+<img src="FILE/C1.png" width="50%" alt=""/>
+<img src="FILE/H0.png" width="50%" alt=""/>
+<img src="FILE/H1.png" width="50%" alt=""/>
+
+## 来自官网的性能对比图
+
+<img src="FILE/XN.png" width="50%" alt=""/>
+
 ## 移动端（Web）Kotlin / Js 和 Kotlin / Wasm
 
-核心都是 WebAssembly ,区别就是 Kotlin / Wasm 比 Kotlin / Js 兼容性更差
+核心都是 WebAssembly ,区别就是 Kotlin/Wasm 比 Kotlin/Js 兼容性更差
 <div style="display: flex; justify-content: space-around;">
   <img src="FILE/W1.png" width="16%" alt=""/>
   <img src="FILE/W2.png" width="16%" alt=""/>
@@ -55,7 +63,5 @@ https://github.com/user-attachments/assets/43838340-7835-40b1-9db5-1b1b07ff6789
   <img src="FILE/S3.png" width="20%" alt=""/>
   <img src="FILE/S0.png" width="20%" alt=""/>
 </div>
-
-
 
 ## <span style="color: blue;"> 项目源码将在 2026 年 4 月 1 日之前上传 </span>
