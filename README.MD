@@ -19,11 +19,11 @@
 
 ## <span style="color: green;">Android 端演示视频</span>
 
-https://github.com/user-attachments/assets/359c6542-825b-4f74-a8d8-2e0acbc89bf7
+https://github.com/user-attachments/assets/43838340-7835-40b1-9db5-1b1b07ff6789
 
 ## <span style="color: green;"> Web 端演示视频 </span>
 
-https://github.com/user-attachments/assets/43838340-7835-40b1-9db5-1b1b07ff6789
+https://github.com/user-attachments/assets/359c6542-825b-4f74-a8d8-2e0acbc89bf7
 
 ## <span style="color: red;">如果浏览器不支持 WASM 则会出现以下情况：</span>
 
