@@ -19,11 +19,11 @@
 
 ## <span style="color: green;">Android 端演示视频</span>
 
-https://github.com/user-attachments/assets/359c6542-825b-4f74-a8d8-2e0acbc89bf7
+https://github.com/user-attachments/assets/43838340-7835-40b1-9db5-1b1b07ff6789
 
 ## <span style="color: green;"> Web 端演示视频 </span>
 
-https://github.com/user-attachments/assets/43838340-7835-40b1-9db5-1b1b07ff6789
+https://github.com/user-attachments/assets/359c6542-825b-4f74-a8d8-2e0acbc89bf7
 
 ## <span style="color: red;">如果浏览器不支持 WASM 则会出现以下情况：</span>
 
@@ -69,6 +69,13 @@ https://github.com/user-attachments/assets/43838340-7835-40b1-9db5-1b1b07ff6789
 
 ## <span style="color: red;">已知问题</span>
 
-1.嵌套滚动问题
+1.嵌套滚动问题，代码来着 Android 端迁移，手机浏览器可以通过触摸横向滚动，桌面浏览器需要通过 Shift 键 + 鼠标滚轮滚动
 
-2.中文乱码，Kotlin/Wasm 本身支持中、日、韩等非ASCII字符，根源在于 WebAssembly (Wasm) 底层没有原生的字符串类型，只能通过引入字体文件显示，字体文件未加载完成，中文字符会显示为乱码
+2.中文乱码问题，Kotlin/Wasm 本身支持中、日、韩等非ASCII字符，根源在于 WebAssembly (Wasm) 底层没有原生的字符串类型，只能通过引入字体文件显示，字体文件未加载完成，中文字符会显示为乱码
+
+3.无法返回问题，由于没有适配桌面端，“城市搜索页面”请点击浏览器导航按钮返回，或者点击空白处后按 Esc 键返回（类似 Android 焦点问题，所以要点击空白处，让输入框失去焦点，否则按 Esc 键无效，手机上访问直接通过系统返回手势即可），“已添加的城市页面” 请通过点击你所添加的城市进入天气数据查看页面（手机端操作相同）
+
+## <span style="color: blue;">项目源码将在 2026 年 4 月 1 日之前上传</span>
+
+
+
