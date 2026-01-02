@@ -72,8 +72,3 @@ https://github.com/user-attachments/assets/43838340-7835-40b1-9db5-1b1b07ff6789
 1.嵌套滚动问题
 
 2.中文乱码，Kotlin/Wasm 本身支持中、日、韩等非ASCII字符，根源在于 WebAssembly (Wasm) 底层没有原生的字符串类型，只能通过引入字体文件显示，字体文件未加载完成，中文字符会显示为乱码
-
-## <span style="color: blue;">项目源码将在 2026 年 4 月 1 日之前上传</span>
-
-
-

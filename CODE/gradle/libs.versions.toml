@@ -1,0 +1,49 @@
+[versions]
+kotlin = "2.3.0"
+androidx-lifecycles = "2.9.6"
+composes-multimedia-platform = "1.10.0-rc02"
+ktorbillofmaterial = "3.3.3"
+
+kotlinserializationsjson = "1.9.0"
+kotlinserializationscore = "1.9.0"
+
+datastor = "1.3.0-alpha03"
+datastorpreference = "1.3.0-alpha03"
+
+navigation = "1.0.0-alpha05"
+materialadaptivenavigation = "1.3.0-alpha02"
+lifecyclesviewmodelsnavigation = "2.10.0-alpha05"
+
+navigation-browsers = "0.2.0"
+
+
+[libraries]
+androidx-lifecycles-viewmodels-composes = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "androidx-lifecycles" }
+androidx-lifecycles-runstime-composes = { module = "org.jetbrains.androidx.lifecycle:lifecycle-runtime-compose", version.ref = "androidx-lifecycles" }
+
+
+ktor-billofmaterial = { module = "io.ktor:ktor-bom", version.ref = "ktorbillofmaterial" }
+ktor-client-core = { module = "io.ktor:ktor-client-core" }
+ktor-client-content-negotiation = { module = "io.ktor:ktor-client-content-negotiation" }
+ktor-serialization-kotlinx-json = { module = "io.ktor:ktor-serialization-kotlinx-json" }
+ktor-client-cbio = { module = "io.ktor:ktor-client-cio" }
+ktor-client-logs = { module = "io.ktor:ktor-client-logging" }
+
+kotlin-serializations-core = { module = "org.jetbrains.kotlinx:kotlinx-serialization-core", version.ref = "kotlinserializationscore" }
+kotlin-serializations-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinserializationsjson" }
+
+androidx-datastor-preference-core = { module = "androidx.datastore:datastore-preferences-core", version.ref = "datastorpreference" }
+androidx-datastor-core = { module = "androidx.datastore:datastore-core", version.ref = "datastor" }
+
+navigation-ui = { module = "org.jetbrains.androidx.navigation3:navigation3-ui", version.ref = "navigation" }
+material-adaptive-navigation = { module = "org.jetbrains.compose.material3.adaptive:adaptive-navigation3", version.ref = "materialadaptivenavigation" }
+lifecycles-viewmodels-navigation = { module = "org.jetbrains.androidx.lifecycle:lifecycle-viewmodel-navigation3", version.ref = "lifecyclesviewmodelsnavigation" }
+
+navigation-browsers = { module = "com.github.terrakok:navigation3-browser", version.ref = "navigation-browsers" }
+
+
+[plugins]
+composes-multimedia-platform = { id = "org.jetbrains.compose", version.ref = "composes-multimedia-platform" }
+kotlin-multimedia-platform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlin-composes = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+kotlin-plugin-serializations = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
